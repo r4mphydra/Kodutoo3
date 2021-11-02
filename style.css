@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-align: center;
+}
+.intro-image{
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.11), rgba(0, 0, 0, 0.699)) , url('nice/pexels-photo-266442.jpeg');
+    background-size: cover;
+    background-position: bottom right;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro-image__text a {
+    display: inline-block;
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #00000070;
+    padding: 2rem;
+    color: #b3a259;
+    border: 2px solid #474747;
+    transition: all 0.5s ease-in-out;
+}
+.intro-image__text a:hover{
+    transform: scale(0.8) ;
+}
+.intro-text{
+    height: 250px;
+    margin-top: -100px;
+    color: #b3a259;
+    background-color: #29333b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    clip-path: polygon(52% 7%, 100% 0, 100% 35%, 100% 68%, 75% 78%, 34% 91%, 0 100%, 0% 70%, 0% 35%, 0 0);
+}
+.intro-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.packaging-image{
+    background-attachment: fixed;
+    height: 450px;
+    background-image: url("nice/pexels-photo-3214958.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+}
+.packaging-image__text a{
+    display: inline-block;
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ff9e2e70;
+    padding: 2rem;
+    color: #6B1A2B;
+    border: 2px solid #DDDCE2;
+    transition: all 0.5s ease-in-out;
+}
+.packaging-image__text a:hover{
+    transform: scale(0.8) ;
+}
+.packaging-text{
+    height: 250px;
+    color: #ff9e2e70 ;
+    background-color: #310101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    clip-path: polygon(60% 13%, 100% 0, 100% 35%, 100% 68%, 75% 78%, 34% 91%, 0 100%, 0% 70%, 0% 35%, 30% 23%);
+    margin-top: -90px;
+}
+.packaging_text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.tutorials-image{
+    background-attachment: fixed;
+    height: 450px;
+    background-image: url("nice/pexels-photo-6044441.jpeg");
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -90px;
+}
+.tutorials-image__text a{
+    display: inline-block;
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #dddce252;
+    padding: 2rem;
+    color: #520505;
+    border: 2px solid #ebd694;
+    transition: all 0.5s ease-in-out;
+}
+.tutorials-image__text a:hover{
+    transform: scale(0.8) ;
+}
+.footer{
+    height: 250px;
+    background-color: #130d06;
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: #66510b ;
+}
+.footer ul li{
+    display: inline-block;
+    margin: 1rem;
+}
+.footer ul li a{
+    text-decoration: none;
+    transition: all 0.5s ease-in-out
+}
+.footer ul li:hover{
+    transform: scale(0.8) ;
+    color: rgb(240, 224, 154);
+}
